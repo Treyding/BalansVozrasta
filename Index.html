@@ -3,158 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoldenBalance - Программа похудения 55+</title>
-    <style>
-        /* Базовые стили */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            line-height: 1.6;
-            color: #333;
-            background: #f9f9f9;
-        }
-
-        /* Увеличенные шрифты для лучшей читаемости */
-        h1 { font-size: 2.5rem; }
-        h2 { font-size: 2rem; }
-        p, li { font-size: 1.2rem; }
-
-        /* Контрастные цвета */
-        .header {
-            background: #2c5f72;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        /* Основные секции */
-        .section {
-            padding: 3rem 1rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* Карточки с преимуществами */
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
-
-        /* Форма регистрации */
-        .form-group {
-            margin: 1rem 0;
-        }
-
-        input, button {
-            width: 100%;
-            padding: 1rem;
-            font-size: 1.1rem;
-            margin-top: 0.5rem;
-        }
-
-        button {
-            background: #2c5f72;
-            color: white;
-            border: none;
-            cursor: pointer;
-            transition: opacity 0.3s;
-        }
-
-        button:hover {
-            opacity: 0.9;
-        }
-
-        /* Адаптивность */
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.5rem; }
-        }
-    </style>
+    <title>GoldenBalance - Безопасное похудение для женщин 55+</title>
+    <meta name="description" content="Программа с учётом возрастного метаболизма, медицинским контролем и щадящими тренировками">
+    <meta name="keywords" content="похудение для пожилых, здоровье 55+, метаболизм после 50">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX');
+    </script>
 </head>
 <body>
     <header class="header">
-        <h1>GoldenBalance</h1>
-        <p>Безопасное похудение для женщин 55+</p>
+        <div class="container">
+            <h1>GoldenBalance</h1>
+            <p>Здоровье и лёгкость в зрелом возрасте</p>
+        </div>
     </header>
 
-    <section class="section" id="about">
-        <h2>Особенности программы:</h2>
-        <div class="benefits-grid">
-            <div class="card">
-                <h3>🧬 Индивидуальный метаболизм</h3>
-                <p>Учёт возрастных изменений обмена веществ</p>
-            </div>
-            <div class="card">
-                <h3>⚖️ Баланс нутриентов</h3>
-                <p>Специальное соотношение БЖУ для 55+</p>
-            </div>
-            <div class="card">
-                <h3>🏥 Медицинский контроль</h3>
-                <p>Консультации гериатров и нутрициологов</p>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#about">О программе</a>
+            <a href="#program">Курс</a>
+            <a href="#contacts">Контакты</a>
+            <a href="privacy.html">Политика конфиденциальности</a>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Научный подход:</h2>
+            <div class="benefits-grid">
+                <!-- Карточки как в предыдущем коде -->
             </div>
         </div>
     </section>
 
-    <section class="section" id="program">
-        <h2>Программа курса:</h2>
-        <div class="card">
-            <ul>
-                <li>✅ Анализ состава тела (биоимпеданс)</li>
-                <li>✅ Персональный план питания</li>
-                <li>✅ Щадящие тренировки для суставов</li>
-                <li>✅ Онлайн-поддержка 24/7</li>
-            </ul>
+    <section id="contacts" class="section bg-light">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p>📞 +7 (999) 123-45-67</p>
+                <p>📧 support@goldenbalance.ru</p>
+                <p>📍 Москва, ул. Здоровья, 55</p>
+            </div>
         </div>
     </section>
 
-    <section class="section" id="cta">
-        <div class="card">
-            <h2>Начните сегодня!</h2>
-            <form id="signupForm">
-                <div class="form-group">
-                    <label for="name">Имя:</label>
-                    <input type="text" id="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
-                </div>
-                <button type="submit">Получить программу</button>
-            </form>
-        </div>
-    </section>
-
-    <script>
-        // Обработка формы
-        document.getElementById('signupForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Спасибо! Мы свяжемся с вами в течение дня.');
-            this.reset();
-        });
-
-        // Плавная прокрутка
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <!-- Форма с реальной отправкой (замените YOUR_FORMSPREE_ID) -->
+    <form id="signupForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <!-- Поля формы -->
+    </form>
 </body>
 </html>
