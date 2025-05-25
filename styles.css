@@ -1,0 +1,25 @@
+/* Добавьте все стили из предыдущего кода + новые */
+.navbar {
+    background: #1a4a5c;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contact-info {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background: #f4f4f4;
+}
